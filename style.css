@@ -4,3 +4,40 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
+
+body {
+  background: black;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-font {
+  font-weight: 800;
+}
+
+.text-blue {
+  color: #3b82f6;
+}
+
+header nav {
+  background: green;
+  width: 100%;
+}
+
+header nav .nav-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav .nav-container .nav-links li {
+  list-style: none;
+}
+
+header nav .nav-container .nav-links a {
+  letter-spacing: 2px;
+}
